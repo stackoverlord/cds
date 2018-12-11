@@ -9,6 +9,7 @@ public class CompoundInterest {
 	private double r; // rate in whole percents
 	private int n; // number of years
 
+// constructors	
 public CompoundInterest	(double pP, int pR, int pN ) {
 	p = pP;
 	r = (double)(pR)/100.00; // cast int to double before dividing 
